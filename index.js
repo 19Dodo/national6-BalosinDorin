@@ -21,6 +21,9 @@ function useJSONResponse(json){
     renderArticles(json);
 }
 
+
+
+
 function  renderArticles(articleList){
     articleListHtml.innerText = "";
     for (const articleData of articleList) {
